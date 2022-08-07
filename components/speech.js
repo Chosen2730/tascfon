@@ -11,7 +11,7 @@ const Speech = () => {
         <Image width={384} height={378} src={pressy} alt='president' />
       </div>
       <div className='w-full md:w-[60%] text-[#006B3E]'>
-        <h1 className='font-bold text-2xl md:text-3xl'>PRESIDENT'S SPEECH</h1>
+        <h1 className='font-bold text-2xl md:text-3xl'>PRESIDENT`S SPEECH</h1>
         <span className='text-sm'>
           Calvary greetings to you in the name of God and Father of our Lord
           Jesus Christ Who has blessed us in Christ with every spiritual
@@ -27,10 +27,10 @@ const Speech = () => {
             and perfecting and bringing it to full completion in us! (Phil 1:6).{" "}
           </span>
           <span className='my-3 block'>
-            The Promise of the Lord towards us at this time is "RESTORATION".
+            The Promise of the Lord towards us at this time is ``RESTORATIO``.
             And I will restore for you the years that the locust has eaten–the
             hopping locust, the stripping locust, and the crawling locust, My
-            great army which I sent among you (Joel 2:25). It's the time of
+            great army which I sent among you (Joel 2:25). It`s the time of
             replenishment, rebuilding, renewal, remoulding and revival, God is
             said to do a new thing and the time is now.{" "}
           </span>
