@@ -25,7 +25,7 @@ const NavItem = ({ title, sub, id }) => {
         <div
           className={`${
             drop ? "block" : "hidden"
-          } md:absolute top-24 border-t-4 border-[#FF0000] bg-white p-4 rounded-md shadow-md`}
+          } md:absolute z-10 top-24 border-t-4 border-[#FF0000] bg-white p-4 rounded-md shadow-md`}
         >
           {sub?.map((item, i) => {
             return (
