@@ -39,13 +39,19 @@ const Upcoming = () => {
         </i>
         <div className='flex gap-4 my-4'>
           {image1 && (
-            <Image src={image1} height={400} width={400} alt='event-img' />
+            <div>
+              <Image src={image1} height={400} width={400} alt='event-img' />
+            </div>
           )}
           {image2 && (
-            <Image src={image2} height={400} width={400} alt='event-img' />
+            <div className='hidden md:block'>
+              <Image src={image2} height={400} width={400} alt='event-img' />
+            </div>
           )}
           {image3 && (
-            <Image src={image3} height={400} width={400} alt='event-img' />
+            <div className='hidden md:block'>
+              <Image src={image3} height={400} width={400} alt='event-img' />
+            </div>
           )}
         </div>
         <i
