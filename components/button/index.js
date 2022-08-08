@@ -7,7 +7,7 @@ const Button = ({ bgColor, text, outline, textColor, action }) => {
         backgroundColor: bgColor,
         borderRadius: "50px",
         width: "fit",
-        padding: ".8rem 1rem",
+        padding: ".8rem 1.5rem",
         border: "2px solid",
         borderColor: `${outline || "transparent"}`,
         color: textColor,
