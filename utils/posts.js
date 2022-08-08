@@ -22,7 +22,7 @@ export const posts = [
     title: "Overcoming Trauma and Letting Go of Past Mistakes",
     author: "by Pastor  Lanre  SHupo at 22/07/22 | 3 comments",
     content:
-      "Usually, when people read Acts 8:26-40, they notice the Ethiopian eunuch’s willingness to learn from Philip and his affluence. However, they cannot see the trauma behind his ",
+      "Usually, when people read Acts 8:26-40, they notice the Ethiopian eunuch`s willingness to learn from Philip and his affluence. However, they cannot see the trauma behind his ",
     image: blog2,
     url: "",
   },

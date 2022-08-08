@@ -25,7 +25,7 @@ const Upcoming = () => {
   return (
     <section className='bg-[#01170E] text-white text-center p-4 py-16'>
       <h2 className='text-3xl'>
-        Here is What's <span className='font-bold'>Happening</span>
+        Here is What`s <span className='font-bold'>Happening</span>
       </h2>
       <p className='text-sm text-green-200 capitalize'>
         stay up to date with our programs & events
