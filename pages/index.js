@@ -3,6 +3,7 @@ import Gallery from "../components/gallery";
 import Hero from "../components/hero";
 import MidSection from "../components/midSection";
 import Speech from "../components/speech";
+import Subscribe from "../components/subscribe";
 import Testimonial from "../components/testimonial";
 import Upcoming from "../components/upcoming";
 import Layout from "../Layout/layout";
@@ -17,6 +18,7 @@ export default function Home() {
       <Blog />
       <MidSection />
       <Testimonial />
+      <Subscribe />
     </Layout>
   );
 }

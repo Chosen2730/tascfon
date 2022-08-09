@@ -1,41 +1,37 @@
-import test1 from "../images/test1.png";
-import test2 from "../images/test2.png";
-import test3 from "../images/test3.png";
-
 export const testimonies = [
   {
     name: "Olaitan Tijesunimi",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi eligendi doloribus doloremque obcaecati totam perspiciatis autem eveniet aliquid. Animi.",
-    image: { test1 },
-    unit: "",
+    image: "/images/test1.png",
+    unit: "Publicity",
   },
   {
     name: "Oshin Olawale",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi eligendi doloribus doloremque obcaecati totam perspiciatis autem eveniet aliquid. Animi.",
-    image: { test2 },
-    unit: "",
+    image: "/images/test2.png",
+    unit: "Publicity",
   },
   {
     name: "Orotoye Okanlawon",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi eligendi doloribus doloremque obcaecati totam perspiciatis autem eveniet aliquid. Animi.",
-    image: { test3 },
-    unit: "",
+    image: "/images/test3.png",
+    unit: "Drama",
   },
   {
     name: "Robinson Simon",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi eligendi doloribus doloremque obcaecati totam perspiciatis autem eveniet aliquid. Animi.",
-    image: { test2 },
-    unit: "",
+    image: "/images/test2.png",
+    unit: "Drama",
   },
   {
-    name: "Elon Musk",
+    name: "Osteen Moses",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi eligendi doloribus doloremque obcaecati totam perspiciatis autem eveniet aliquid. Animi.",
-    image: { test3 },
-    unit: "",
+    image: "/images/test3.png",
+    unit: "Tech",
   },
 ];

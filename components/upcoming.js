@@ -32,7 +32,7 @@ const Upcoming = () => {
       </p>
       <div className='flex justify-between space-x-4 items-center'>
         <i
-          className='bg-[#FF0000] border-2 border-white rounded-full txt-2xl md:text-4xl cursor-pointer'
+          className='bg-[#FF0000] border-2 border-white rounded-full text-4xl cursor-pointer'
           onClick={prev}
         >
           <BsArrowLeftCircle />
@@ -55,7 +55,7 @@ const Upcoming = () => {
           )}
         </div>
         <i
-          className='bg-[#FF0000] border-2 border-white rounded-full txt-2xl md:text-4xl cursor-pointer'
+          className='bg-[#FF0000] border-2 border-white rounded-full text-4xl cursor-pointer'
           onClick={next}
         >
           <BsArrowRightCircle />
