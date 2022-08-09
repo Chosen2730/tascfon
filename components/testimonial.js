@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ImQuotesLeft } from "react-icons/im";
 import { testimonies } from "../utils/testimonies";
 
@@ -10,6 +10,19 @@ const Testimonial = () => {
   const changeIndex = (id) => {
     setValue(id);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setValue(() => {
+        const newValue = value + 1;
+        if (newValue > testimonies.length - 1) {
+          return 0;
+        }
+        return newValue;
+      });
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [value]);
   return (
     <div className='text-[#0F6212] p-4 py-12'>
       <h2 className='text-3xl md:text-4xl font-bold uppercase text-center'>
