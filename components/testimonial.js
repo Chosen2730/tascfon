@@ -16,7 +16,7 @@ const Testimonial = () => {
         Testimonies
       </h2>
       <p className='text-sm text-[#0F6212] capitalize text-center'>
-        See what people are saying.
+        See what God has done for us.
       </p>
       <div className='grid gap-4 m-8 md:grid-cols-3 md:mt-20'>
         <div className='p-8 pb-12 hidden md:flex flex-col justify-center items-center shadow-xl rounded-xl relative'>
@@ -77,7 +77,7 @@ const Testimonial = () => {
             <div
               className={`${
                 i === value ? "bg-green-600" : "bg-white"
-              } w-4 h-4 text-5xl bg-[#fff] cursor-pointer rounded-full border-2 border-green-600`}
+              } w-4 h-4 text-5xl cursor-pointer rounded-full border-2 border-green-600`}
               key={i}
               onClick={() => changeIndex(i)}
             />
