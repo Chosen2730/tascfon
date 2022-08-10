@@ -11,14 +11,16 @@ import Layout from "../Layout/layout";
 export default function Home() {
   return (
     <Layout>
-      <Hero />
-      <Speech />
-      <Upcoming />
-      <Gallery />
-      <Blog />
-      <MidSection />
-      <Testimonial />
-      <Subscribe />
+      <div className='max-w-[1440px] mx-auto'>
+        <Hero />
+        <Speech />
+        <Upcoming />
+        <Gallery />
+        <Blog />
+        <MidSection />
+        <Testimonial />
+        <Subscribe />
+      </div>
     </Layout>
   );
 }

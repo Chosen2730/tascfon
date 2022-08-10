@@ -7,7 +7,7 @@ import style from "../styles/hero.module.css";
 
 const Hero = () => {
   return (
-    <div className={`${style.hero} relative h-[80vh] bg-black`}>
+    <div className={`${style.hero} relative min-h-[500px] bg-black`}>
       {/* <Image src={back} layout='responsive' alt='background' /> */}
       <div className='absolute px-8 top-0 w-full h-full flex items-center justify-between text-white text-center'>
         <i className='text-xl cursor-pointer md:text-4xl'>

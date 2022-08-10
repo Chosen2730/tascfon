@@ -12,3 +12,10 @@
   background-position: center;
   background-attachment: fixed;
 }
+.giveHeader {
+  background: url("../images/give.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
