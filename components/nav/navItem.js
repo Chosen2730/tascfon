@@ -35,9 +35,9 @@ const NavItem = ({ title, url, sub, id }) => {
         >
           {sub?.map(({ title, url }, i) => {
             return (
-              <Link href={url}>
+              <Link  key={i} href={url}>
                 <h1
-                  key={i}
+                 
                   className='hover:text-[#FF0000] transition uppercase my-4 font-bold text-sm cursor-pointer'
                 >
                   {title}
