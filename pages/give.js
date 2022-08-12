@@ -120,6 +120,7 @@ const Give = () => {
                       textColor='#fff'
                       action={() => {
                         navigator.clipboard.writeText(acc);
+                        alert("Copied to clipboard");
                       }}
                     />
                   </div>
@@ -159,6 +160,7 @@ const Give = () => {
                         className='w-full bg-[#01170E] p-4 font-bold text-white text-xs rounded-md'
                         onClick={() => {
                           navigator.clipboard.writeText(ussd);
+                          alert("Copied to clipboard");
                         }}
                       >
                         Copy code
