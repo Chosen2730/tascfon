@@ -19,7 +19,6 @@ export default function Home() {
         <Blog />
         <MidSection />
         <Testimonial />
-        <Subscribe />
       </div>
     </Layout>
   );

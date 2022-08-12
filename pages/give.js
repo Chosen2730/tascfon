@@ -148,7 +148,7 @@ const Give = () => {
                   <div className='text-center my-4'>
                     <p className='text-xs'>
                       Copy and paste the USSD Code below into your phone dialer
-                      or press the 'Pay with Code" button to dial directly.
+                      or press the Pay with Code button to dial directly.
                     </p>
                     <h2 className='my-3'>{selectedBank}</h2>
                     <h3 className='font-bold text-lg sm:text-3xl my-4'>
