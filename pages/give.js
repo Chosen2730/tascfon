@@ -31,7 +31,7 @@ const Give = () => {
         </div>
         <div className='max-w-3xl mx-auto p-4 -mt-28 sm:-mt-44 '>
           <div className='p-4 sm:p-8 rounded-md shadow-xl my-8 bg-white'>
-            <h1 className='capitalize font-semibold text-lg'>
+            <h1 className='capitalize font-semibold text-lg my-3'>
               What will you like to give towards?
             </h1>
             <div className='grid grid-cols-3 justify-center gap-4 items-center'>
@@ -156,7 +156,7 @@ const Give = () => {
                     </h3>
                     <div className='flex justify-between my-3 space-x-4'>
                       <div
-                        className='w-full bg-[#01170E] p-2 text-white text-xs rounded-md'
+                        className='w-full bg-[#01170E] p-4 font-bold text-white text-xs rounded-md'
                         onClick={() => {
                           navigator.clipboard.writeText(ussd);
                         }}
@@ -165,7 +165,7 @@ const Give = () => {
                       </div>
                       <a
                         href={`tel:${ussd}`}
-                        className='w-full bg-[#FF0000] p-2 text-white text-xs rounded-md'
+                        className='w-full bg-[#FF0000] p-4 font-bold text-white text-xs rounded-md'
                       >
                         <div>Pay with code</div>
                       </a>
