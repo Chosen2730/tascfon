@@ -12,7 +12,7 @@ const Gallery = () => {
       </p>
       <div className='flex justify-center flex-col'>
         <div className='grid grid-cols-2 md:grid-cols-3 gap-4 my-4 mx-auto'>
-          {gallery.map((item, i) => {
+          {gallery.slice(0, 6).map((item, i) => {
             return (
               <div key={i} className='w-full'>
                 <Image src={item} height={244} width={309} alt='photo' />

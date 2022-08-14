@@ -15,11 +15,13 @@ const Testimony = () => {
             Testimonies
           </h1>
         </div>
-        <Testimonial />
-        <div className='max-w-4xl mx-auto p-6 rounded-md shadow-xl text-[#03AF09]'>
-          <h1 className='text-center capitalize text-xl'>encourage someone</h1>
+        {/* <Testimonial /> */}
+        <div className='w-[90%] max-w-4xl -mt-20 sm:-mt-32 bg-white mx-auto p-6 rounded-md shadow-xl text-[#03AF09]'>
+          <h1 className='text-center capitalize text-xl tracking-[9px]'>
+            encourage someone
+          </h1>
           <hr className='my-7' />
-          <div className='grid md:grid-cols-2 gap-4 justify-center'>
+          <div className='grid md:grid-cols-2 gap-8 justify-center'>
             <div>
               <div className='bg-[#03AF09] text-white p-6'>
                 <h1 className='uppercase font-bold text-xl'>Testify</h1>

@@ -4,7 +4,7 @@ import Button from "./button";
 const Subscribe = () => {
   return (
     <div className='p-2 py-16 bg-gray-200'>
-      <h2 className='text-3xl md:text-4xl text-[#0F6212] font-bold uppercase text-center'>
+      <h2 className='text-xl md:text-3xl text-[#0F6212] font-bold uppercase text-center'>
         Join our mailing list
       </h2>
       <p className='text-sm text-[#0F6212] text-center my-2'>

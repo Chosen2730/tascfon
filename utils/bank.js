@@ -6,9 +6,9 @@ export const giveHeading = [
 
 export const banks = [
   { bankName: "GTB", ussd: "*737*" },
-  { bankName: "Access", ussd: "*901*" },
+  { bankName: "Access Bank", ussd: "*901*" },
   { bankName: "UBA", ussd: "*919*" },
   { bankName: "FCMB", ussd: "*329*" },
-  { bankName: "First", ussd: "*894*" },
-  { bankName: "Union", ussd: "*826*" },
+  { bankName: "First Bank", ussd: "*894*" },
+  { bankName: "Union Bank", ussd: "*826*" },
 ];

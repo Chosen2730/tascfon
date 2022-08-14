@@ -1,14 +1,16 @@
 export const navtitles = [
   { title: "home", url: "/" },
   { title: "about us", url: "about" },
+  { title: "give", url: "/give" },
   {
     title: "information center",
     url: "#",
     sub: [
       { title: "executives", url: "/executives" },
+      { title: "Family Song", url: "/song" },
+      { title: "Photo Gallery", url: "/gallery" },
       { title: "contact us", url: "/contact" },
       { title: "testimony", url: "/testimony" },
-      { title: "Family Song", url: "/song" },
     ],
   },
   {
@@ -34,5 +36,4 @@ export const navtitles = [
     ],
   },
   { title: "blog", url: "/blog" },
-  { title: "give", url: "/give" },
 ];
