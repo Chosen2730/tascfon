@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import hash from "../images/hash.png";
 import bank from "../images/bank.png";
 import Image from "next/image";
@@ -7,6 +7,7 @@ import { giveHeading, banks } from "../utils/bank";
 import style from "../styles/hero.module.css";
 import { TbBuildingSkyscraper, TbHeartHandshake } from "react-icons/tb";
 import { RiHandHeartLine } from "react-icons/ri";
+import { AiOutlineCheck } from "react-icons/ai";
 import Button from "../components/button";
 
 const Give = () => {
@@ -17,6 +18,15 @@ const Give = () => {
   const [selectedBank, setSelectedBank] = useState("");
   const selectedAcc = banks.find((bank) => bank.bankName === selectedBank);
   const [amount, setAmount] = useState(0);
+  const [copy, setCopy] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCopy(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, [copy]);
+
   const USSDCODE = selectedAcc && selectedAcc.ussd;
   const ussd = `${USSDCODE}${amount}*${acc}#`;
   return (
@@ -25,7 +35,7 @@ const Give = () => {
         <div
           className={`${style.giveHeader} min-h-[400px] flex flex-col justify-center items-center`}
         >
-          <h1 className='text-7xl font-bold uppercase text-white text-center w-full h-full m-0'>
+          <h1 className='text-5xl md:text-7xl font-bold uppercase text-white text-center w-full h-full m-0'>
             Give
           </h1>
         </div>
@@ -41,7 +51,7 @@ const Give = () => {
                     key={i}
                     className={`${
                       i === base ? "bg-[#03AF09] text-[#fff]" : "text-[#03AF09]"
-                    } rounded-xl shadow-md  flex flex-col justify-center items-center gap-3 w-full p-3 sm:p-8`}
+                    } rounded-xl shadow-md  flex flex-col justify-center items-center gap-3 w-full p-3 sm:p-8 cursor-pointer hover:bg-green-200`}
                     onClick={() => {
                       setBase(i);
                       if (i === 2) {
@@ -88,7 +98,7 @@ const Give = () => {
               Select a payment method
             </h1>
             <div
-              className='flex items-center space-x-4 border-2 border-gray-200 p-4 rounded-md my-3  cursor-pointer hover:bg-gray-100'
+              className='flex items-center space-x-4 border-2 border-gray-200 p-4 rounded-md my-3  cursor-pointer hover:bg-green-200'
               onClick={() => {
                 setDrop(true);
                 setTransfer(true);
@@ -98,7 +108,7 @@ const Give = () => {
               <h2>Bank Transfer</h2>
             </div>
             <div
-              className='flex items-center space-x-4 border-2 border-gray-200 p-4 rounded-md my-3 cursor-pointer hover:bg-gray-100'
+              className='flex items-center space-x-4 border-2 border-gray-200 p-4 rounded-md my-3 cursor-pointer hover:bg-green-200'
               onClick={() => {
                 setDrop(true);
                 setTransfer(false);
@@ -115,12 +125,19 @@ const Give = () => {
                   <h2 className='font-bold my-2'>{acc}</h2>
                   <div className='text-xs'>
                     <Button
-                      text='Copy'
+                      text={
+                        <i className='flex items-center space-x-2'>
+                          <h2 className='capitalize font-bold'>
+                            {copy ? "copy" : "copied"}
+                          </h2>
+                          {!copy && <AiOutlineCheck />}
+                        </i>
+                      }
                       bgColor='#0F6212'
                       textColor='#fff'
                       action={() => {
                         navigator.clipboard.writeText(acc);
-                        alert("Copied to clipboard");
+                        setCopy(false);
                       }}
                     />
                   </div>
@@ -157,13 +174,20 @@ const Give = () => {
                     </h3>
                     <div className='flex justify-between my-3 space-x-4'>
                       <div
-                        className='w-full bg-[#01170E] p-4 font-bold text-white text-xs rounded-md'
+                        className={`${
+                          copy ? "bg-[#01170E]" : "bg-green-600"
+                        } w-full p-4 font-bold text-white text-xs rounded-md cursor-pointer`}
                         onClick={() => {
                           navigator.clipboard.writeText(ussd);
-                          alert("Copied to clipboard");
+                          setCopy(false);
                         }}
                       >
-                        Copy code
+                        <i className='flex items-center space-x-2 justify-center'>
+                          <h2 className='capitalize'>
+                            {copy ? "copy code" : "code copied"}
+                          </h2>
+                          {!copy && <AiOutlineCheck />}
+                        </i>
                       </div>
                       <a
                         href={`tel:${ussd}`}
