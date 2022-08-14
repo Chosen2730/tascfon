@@ -15,7 +15,7 @@ const Testimonial = () => {
     if (n === arr.length - 2) {
       return 0;
     } else if (n < 0) {
-      return arr.length - 1;
+      return arr.length - 2;
     }
     return n;
   };
