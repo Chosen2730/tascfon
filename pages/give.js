@@ -51,7 +51,7 @@ const Give = () => {
                     key={i}
                     className={`${
                       i === base ? "bg-[#03AF09] text-[#fff]" : "text-[#03AF09]"
-                    } rounded-xl shadow-md  flex flex-col justify-center items-center gap-3 w-full p-3 sm:p-8 cursor-pointer hover:bg-green-200`}
+                    } rounded-xl shadow-md  flex flex-col justify-center items-center gap-3 w-full p-3 sm:p-8 cursor-pointer md:hover:bg-green-200`}
                     onClick={() => {
                       setBase(i);
                       if (i === 2) {

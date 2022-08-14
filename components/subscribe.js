@@ -11,7 +11,7 @@ const Subscribe = () => {
         We promise not to SPAM you, but send you edifying and amazing content
         regularly from Tacsfon Funaab
       </p>
-      <div className='flex flex-col md:flex-row my-2 justify-center items-center gap-4 w-72 md:w-full md:max-w-4xl mx-auto'>
+      <div className='flex flex-col md:flex-row my-2 justify-center items-center gap-4 w-72 md:w-full md:max-w-4xl mx-auto text-sm'>
         <input
           type='name'
           placeholder='Name'
@@ -27,7 +27,7 @@ const Subscribe = () => {
           placeholder='Birthday, e.g 25th'
           className='w-full p-4 rounded-2xl'
         />
-        <div className='text-left'>
+        <div className='text-left text-xs font-bold'>
           <Button text='SUBSCRIBE' bgColor='#0F6212' textColor='#fff' />
         </div>
       </div>
