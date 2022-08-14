@@ -43,7 +43,7 @@ const PhotoGallery = () => {
             <div className='relative'>
               <div className='flex space-x-4 absolute top-0 left-0'>
                 <i
-                  className='text-3xl bg-black rounded-full p-5 cursor-pointer '
+                  className='text-xl bg-black rounded-full p-3 cursor-pointer '
                   onClick={() =>
                     setIndex(() => {
                       const newIndex = index - 1;
@@ -57,7 +57,7 @@ const PhotoGallery = () => {
                   <AiFillCaretLeft />
                 </i>
                 <i
-                  className='text-3xl bg-black rounded-full p-5 cursor-pointer'
+                  className='text-xl bg-black rounded-full p-3 cursor-pointer'
                   onClick={() =>
                     setIndex(() => {
                       const newIndex = index + 1;
@@ -73,7 +73,7 @@ const PhotoGallery = () => {
               </div>
               <img src={gallery[index]} alt='' />
               <i
-                className='text-3xl bg-black rounded-full p-5 absolute top-0 right-0'
+                className='text-xl bg-black rounded-full p-3 absolute top-0 right-0'
                 onClick={() => setDisplay(false)}
               >
                 <CgClose />

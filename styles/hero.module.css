@@ -36,5 +36,5 @@
 .gallery img {
   width: 80vw;
   height: 80vh;
-  object-fit: cover;
+  object-fit: scale-down;
 }
