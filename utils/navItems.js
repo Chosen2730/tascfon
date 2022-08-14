@@ -1,5 +1,4 @@
 export const navtitles = [
-  { title: "home", url: "/" },
   { title: "about us", url: "about" },
   { title: "give", url: "/give" },
   {

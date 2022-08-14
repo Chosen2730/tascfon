@@ -1,7 +1,9 @@
 import { gallery } from "../utils/gallery";
 import Image from "next/image";
 import Button from "./button";
+import { useRouter } from "next/router";
 const Gallery = () => {
+  const router = useRouter();
   return (
     <section className='bg-white text-[#0F6212] text-center p-4 py-16'>
       <h2 className='text-3xl'>
@@ -21,7 +23,12 @@ const Gallery = () => {
           })}
         </div>
         <div className='text-sm'>
-          <Button text='See More]]' bgColor='#0F6212' textColor='#fff' />
+          <Button
+            text='See More]]'
+            bgColor='#0F6212'
+            textColor='#fff'
+            action={() => router.push("/gallery")}
+          />
         </div>
       </div>
     </section>

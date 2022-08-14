@@ -12,12 +12,12 @@ const PhotoGallery = () => {
     <Layout>
       <div className='max-w-[1440px] mx-auto text-gray-50'>
         <div
-          className={`${style.photoHeader} min-h-[400px] flex flex-col justify-center items-center`}
+          className={`${style.photoHeader} min-h-[400px] flex flex-col justify-center items-center p-4`}
         >
           <h1 className='text-5xl md:text-7xl font-bold uppercase text-white text-center w-full h-full m-0'>
             Photo Gallery
           </h1>
-          <p className='text-xl my-2 text-white'>
+          <p className='text-sm text-center sm:text-xl my-2 text-white'>
             Our Collage Of Photos And Memories From Notable Services
           </p>
         </div>
@@ -40,41 +40,45 @@ const PhotoGallery = () => {
         </div>
         {display && (
           <div className={style.gallery}>
-            <i
-              className='text-3xl bg-green-800 rounded-full p-5 absolute top-10 right-10'
-              onClick={() => setDisplay(false)}
-            >
-              <CgClose />
-            </i>
-            <i
-              className='text-5xl p-5 cursor-pointer'
-              onClick={() =>
-                setIndex(() => {
-                  const newIndex = index - 1;
-                  if (newIndex < 0) {
-                    return gallery.length - 1;
+            <div className='relative'>
+              <div className='flex space-x-4 absolute top-0 left-0'>
+                <i
+                  className='text-3xl bg-black rounded-full p-5 cursor-pointer '
+                  onClick={() =>
+                    setIndex(() => {
+                      const newIndex = index - 1;
+                      if (newIndex < 0) {
+                        return gallery.length - 1;
+                      }
+                      return newIndex;
+                    })
                   }
-                  return newIndex;
-                })
-              }
-            >
-              <AiFillCaretLeft />
-            </i>
-            <img src={gallery[index]} alt='' />
-            <i
-              className='text-5xl p-5 cursor-pointer'
-              onClick={() =>
-                setIndex(() => {
-                  const newIndex = index + 1;
-                  if (newIndex > gallery.length - 1) {
-                    return 0;
+                >
+                  <AiFillCaretLeft />
+                </i>
+                <i
+                  className='text-3xl bg-black rounded-full p-5 cursor-pointer'
+                  onClick={() =>
+                    setIndex(() => {
+                      const newIndex = index + 1;
+                      if (newIndex > gallery.length - 1) {
+                        return 0;
+                      }
+                      return newIndex;
+                    })
                   }
-                  return newIndex;
-                })
-              }
-            >
-              <AiFillCaretRight />
-            </i>
+                >
+                  <AiFillCaretRight />
+                </i>
+              </div>
+              <img src={gallery[index]} alt='' />
+              <i
+                className='text-3xl bg-black rounded-full p-5 absolute top-0 right-0'
+                onClick={() => setDisplay(false)}
+              >
+                <CgClose />
+              </i>
+            </div>
           </div>
         )}
       </div>

@@ -7,10 +7,9 @@ import style from "../styles/hero.module.css";
 
 const Hero = () => {
   return (
-    <div className={`${style.hero} relative min-h-[500px] bg-black`}>
-      {/* <Image src={back} layout='responsive' alt='background' /> */}
+    <div className={`${style.hero} relative min-h-[700px] bg-black`}>
       <div className='absolute px-8 top-0 w-full h-full flex items-center justify-between text-white text-center'>
-        <i className='text-xl cursor-pointer md:text-4xl'>
+        <i className='text-2xl cursor-pointer md:text-4xl'>
           <BsArrowLeftCircle />
         </i>
         <div>
@@ -22,7 +21,7 @@ const Hero = () => {
             <Button text='Who We Are' outline='white' />
           </div>
         </div>
-        <i className='text-xl cursor-pointer md:text-4xl'>
+        <i className='text-2xl cursor-pointer md:text-4xl'>
           <BsArrowRightCircle />
         </i>
       </div>
