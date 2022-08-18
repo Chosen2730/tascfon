@@ -37,7 +37,7 @@ const About = () => {
                 <div>
                   <p className='text-sm my-2'>
                     In The Beginning - The Executives Of The Apostolics Church
-                    Students' Fellowshhip Of Nigria (TACSFON) Of The Federal
+                    Students` Fellowshhip Of Nigria (TACSFON) Of The Federal
                     University Of Agriculture, Abeokuta (FUNAAB) Then Known As
                     UNAAB Was Inaugurated By The Then (The Apostolic Church,
                     Isale - Igbein District Under Abeokuta Area) Apostle Pastor
@@ -85,7 +85,7 @@ const About = () => {
           {more && (
             <div className='my-4'>
               <p>
-                In The Beginning- The Executives The Apostolic Church Students'
+                In The Beginning- The Executives The Apostolic Church Students`
                 Fellowship of Nigeria(TACSFON) of The Federal University of
                 Agriculture Abeokuta(FUNAAB) then known as UNAAB was inaugurated
                 by the then (The Apostolic Church Isale- Igbein District Under
@@ -102,7 +102,7 @@ const About = () => {
                 agreement was reached to have a Coordinator and to be assisted
                 by other brethren(not Executives). <br />
                 <br />
-                This was done via nomination and availability and we're known as
+                This was done via nomination and availability and we`re known as
                 the Pro-executives . Brother B.J.O Ayorinde was chosen as the
                 Coordinator. Brother Sunday Emmanuel was the General Secretary
                 and Brother John Abel was the Prayer Secretary. Afore the
@@ -110,18 +110,18 @@ const About = () => {
                 the baton of Leadership. The transition process was conducted
                 and Bro Adekanbi was chosen as the first President while Sister
                 Sola Ogunade(nee Ojo) geld the posts of the General Secretary
-                and Sisters' Coordinator.
+                and Sisters` Coordinator.
                 <br />
                 <br />
                 Till date, TACSFON FUNAAB has produced 21 Presidents, 25 General
-                Secretaries, 18 Sisters' Coordinators and other numerous
+                Secretaries, 18 Sisters` Coordinators and other numerous
                 executive members whose names are written in the annuals of the
-                Fellowship's history. <br />
+                Fellowship`s history. <br />
                 <br />
                 <span className='font-bold my-2 block'>
                   FELLOWSHIP MEETINGS AND PERMANENT SITE BUILDING
                 </span>
-                As reported earlier, the Fellowship started at the Children's
+                As reported earlier, the Fellowship started at the Children`s
                 Sunday school hall of TAC Isale-Igbein Assembly. After 2 yrs,
                 she transited to the School campus and had her meetings in
                 Classroom 08 close to the cafeteria on Wednesdays. On moving to
@@ -147,7 +147,7 @@ const About = () => {
                 large enough for the members, it was resolved that a piece of
                 land be secured. In March 2007, at a total cost of N250000, a
                 2-plot piece of land was purchased at Isolu, Alabata where the
-                Fellowship's edifice currently stands. The First Sunday service
+                Fellowship`s edifice currently stands. The First Sunday service
                 conducted in the morning commenced in 2008(Sunday programmes had
                 always been in the afternoon) under a makeshift tent. <br />
                 <br />
@@ -156,7 +156,7 @@ const About = () => {
                 of them of blessed memory now, Overseer Engineer Wale Bajomo who
                 fought to establish this TACSFON as most of our baba don't
                 really have full support for the student body establishment. In
-                his words, 'They were thinking the other way round that he want
+                his words, `They were thinking the other way round that he want
                 to give the young people chance and that is Elder Toyin Ayinde
                 who was the former commissioner of Urban and Regional planning
                 in Lagos state during Fashola regime but I doubt iif he is in
@@ -166,13 +166,13 @@ const About = () => {
                 The start was .. you know when you want to build a house, where
                 the problem is, is the foundation so your predecessors they
                 really tried and we joined hands together, like when they
-                started as young people.. Yoruba say “Ti omo ba sipa obi e ale
-                gbe” so they really started very strong, when it now got to the
+                started as young people.. Yoruba say ``Ti omo ba sipa obi e ale
+                gbe`` so they really started very strong, when it now got to the
                 stage of buying that land, I as an estate surveyor and a land
                 expert I had to come in and contribute my own quota as a
                 professional and a little finance that I had to do. They came to
                 me every now and then asking what next sir, how do we go and
-                after it all, we thank God the approval of the land we have it.{" "}
+                after it all, we thank God the approval of the land we have it.
                 <br />
                 <br />
                 <span className='font-bold my-2 block'>MINI CAMPUS</span>
@@ -180,7 +180,7 @@ const About = () => {
                 students, was established at Isale-Igbein( the then mini-campus)
                 but now at Mawuko. She had her fellowship meetings on Wednesdays
                 between the hours of 1-3pm but now hold Sunday programmes with
-                her own set of executives (supervised by the mini-campus'
+                her own set of executives (supervised by the mini-campus`
                 executives headed by the Vice President 2 and assisted by other
                 Executives assigned to the mini-campus). Bible study/Prayer
                 meeting holds on Wednesdays among others.
@@ -191,14 +191,14 @@ const About = () => {
                 established. Members are expected to undergo classes, write an
                 Examination and attend an interview before they can be
                 recognized as Workers in the household. Certificates are then
-                awarded there-after. The first set of participants' graduation
+                awarded there-after. The first set of participants` graduation
                 ceremony was held on March 30,2005. The first Principal of the
                 school was Brother Daniel Ogunsola . Presently, the Vice
-                President 1 is also the Principal of the Believers' school.
+                President 1 is also the Principal of the Believers` school.
                 <br />
                 <br />
                 In 2007/2008 the school was divided into two arms: Membership
-                class (a 7-week course meant for new members) and Workers'
+                class (a 7-week course meant for new members) and Workers`
                 class( to prepare and equip members so as to render effective
                 service in the household) who would go on to be Executives.
                 <br />
