@@ -30,7 +30,7 @@ const Testimonial = () => {
   return (
     <div className='text-[#0F6212] p-4 py-12'>
       <h2 className='text-3xl md:text-4xl font-bold uppercase text-center'>
-        Reviews
+        Testimonials
       </h2>
       <p className='text-sm text-[#0F6212] capitalize text-center'>
         See what people say about us.

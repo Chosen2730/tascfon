@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../Layout/layout";
-import Testimonial from "../components/testimonial";
 import style from "../styles/hero.module.css";
 import Button from "../components/button";
 
@@ -9,7 +8,7 @@ const Testimony = () => {
     <Layout>
       <div className='max-w-[1440px] mx-auto text-gray-800'>
         <div
-          className={`${style.giveHeader} min-h-[400px] flex flex-col justify-center items-center`}
+          className={`${style.testimonyHeader} min-h-[400px] flex flex-col justify-center items-center`}
         >
           <h1 className='text-5xl md:text-7xl font-bold uppercase text-white text-center w-full h-full m-0'>
             Testimonies

@@ -12,7 +12,7 @@ const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <nav className='shadow-md'>
-      <div className='mx-auto max-w-6xl flex flex-col md:flex-row justify-between md:items-center py-4 px-4 xl:px-0  text-[#0F6212]'>
+      <div className='mx-auto max-w-6xl flex flex-col md:flex-row md:space-x-40 md:items-center py-4 px-4 xl:px-0  text-[#0F6212]'>
         <div className='flex justify-between items-center'>
           <div className='cursor-pointer' onClick={() => router.push("/")}>
             <Image src={logo} width={112} height={58} alt='logo' />
@@ -27,7 +27,7 @@ const Nav = () => {
         <div
           className={`${
             navOpen ? "flex flex-col" : "hidden"
-          } md:flex md:flex-row md:space-x-4`}
+          } md:flex md:flex-row md:justify-between w-full`}
         >
           {navtitles.map((item, i) => {
             return <NavItem key={i} {...item} id={i} />;

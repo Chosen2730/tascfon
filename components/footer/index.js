@@ -13,7 +13,7 @@ const Footer = () => {
       <div className='grid sm:grid-cols-2 gap-4 justify-center max-w-4xl mx-auto'>
         <div>
           <h2 className='text-[#FF0000] text-sm uppercase my-2 sm:text-xl font-bold'>
-            Location
+            Contact us
           </h2>
           <p className='leading-6'>
             PALMVIEW, CAMP JUNCTION, FUNAaB ALABATA, ABEOKUTA, OGUNSTATE. <br />
