@@ -154,7 +154,7 @@ const About = () => {
                 Also, according to Elder Kuforiji who has been with the
                 fellowship since inception amidst company of other Elders. One
                 of them of blessed memory now, Overseer Engineer Wale Bajomo who
-                fought to establish this TACSFON as most of our baba don't
+                fought to establish this TACSFON as most of our baba don`t
                 really have full support for the student body establishment. In
                 his words, `They were thinking the other way round that he want
                 to give the young people chance and that is Elder Toyin Ayinde
@@ -186,8 +186,8 @@ const About = () => {
                 meeting holds on Wednesdays among others.
                 <br />
                 <br />
-                <span className='font-bold my-2 block'> BELIEVERS' SCHOOL</span>
-                In the 2004/2005 Spiritual year, the BELIEVERS' SCHOOL was
+                <span className='font-bold my-2 block'> BELIEVERS` SCHOOL</span>
+                In the 2004/2005 Spiritual year, the BELIEVERS` SCHOOL was
                 established. Members are expected to undergo classes, write an
                 Examination and attend an interview before they can be
                 recognized as Workers in the household. Certificates are then
