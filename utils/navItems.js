@@ -6,7 +6,7 @@ export const navtitles = [
     title: "information center",
     url: "#",
     sub: [
-      { title: "executives", url: "/executives" },
+      { title: "executives", url: "/exco" },
       { title: "Family Song", url: "/song" },
       { title: "Photo Gallery", url: "/gallery" },
       { title: "testimony", url: "/testimony" },

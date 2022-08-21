@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 const Footer = () => {
   const router = useRouter();
   return (
-    <footer className='bg-[#01170E] text-green-50 pt-20 px-8 text-xs -mt-5'>
+    <footer className='bg-[#01170E] text-green-50 pt-20 px-8 text-xs'>
       <div className='grid sm:grid-cols-2 gap-4 justify-center max-w-4xl mx-auto'>
         <div>
           <h2 className='text-[#FF0000] text-sm uppercase my-2 sm:text-xl font-bold'>
