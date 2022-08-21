@@ -11,7 +11,7 @@ const Subscribe = () => {
         We are always available to listen to you, pray with you and rejoice with
         you.
       </p>
-      <div className='my-2 w-72 md:w-full md:max-w-4xl mx-auto text-sm'>
+      <div className='my-2 w-80 md:w-full md:max-w-4xl mx-auto text-sm'>
         <div className='md:flex gap-4'>
           <input
             type='name'

@@ -26,15 +26,16 @@ const Speech = () => {
             work in us will continue until the day of Jesus Christ, developing
             and perfecting and bringing it to full completion in us! (Phil 1:6).{" "}
           </span>
-          <span className='my-3 block'>
-            The Promise of the Lord towards us at this time is ``RESTORATIO``.
-            And I will restore for you the years that the locust has eaten–the
-            hopping locust, the stripping locust, and the crawling locust, My
-            great army which I sent among you (Joel 2:25). It`s the time of
-            replenishment, rebuilding, renewal, remoulding and revival, God is
-            said to do a new thing and the time is now.{" "}
-          </span>
           <span className={`${more ? "block" : "hidden"}`}>
+            <span className='my-3 block'>
+              The Promise of the Lord towards us at this time is ``RESTORATIO``.
+              And I will restore for you the years that the locust has eaten–the
+              hopping locust, the stripping locust, and the crawling locust, My
+              great army which I sent among you (Joel 2:25). It`s the time of
+              replenishment, rebuilding, renewal, remoulding and revival, God is
+              said to do a new thing and the time is now.{" "}
+            </span>
+
             <span className='my-3 block'>
               The Lord is here to restore our relationship with the father, to
               build us as a Holy and Righteous temple of God, to raise men whose

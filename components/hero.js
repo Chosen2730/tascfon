@@ -16,7 +16,7 @@ const Hero = () => {
         </i> */}
         <div>
           <h2 className='text-5xl md:text-8xl font-bold'>
-            Welcome to the <span className='block'> Family of Love.</span>
+            Welcome to the Family of Love.
           </h2>
           <p className='text-xl md:text-3xl my-2'>
             ...let no man despise thy youth, we are one.
