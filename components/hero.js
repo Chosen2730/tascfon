@@ -15,15 +15,13 @@ const Hero = () => {
           <BsArrowLeftCircle />
         </i> */}
         <div>
-          <h2 className='text-5xl md:text-8xl font-bold'>
+          <h2 className='text-5xl md:text-8xl font-bold max-w-3xl mx-auto'>
             Welcome to the Family of Love.
           </h2>
-          <p className='text-xl md:text-3xl my-2'>
-            ...let no man despise thy youth, we are one.
-          </p>
-          {/* <div className='my-3 text-sm md:text-2xl'>
-            <Button text='Who We Are' outline='white' />
-          </div> */}
+
+          <div className='my-3 text-lg capitalize md:text-2xl'>
+            <Button text='We Are One' outline='white' />
+          </div>
         </div>
         {/* <i className='text-2xl cursor-pointer md:text-4xl'>
           <BsArrowRightCircle />

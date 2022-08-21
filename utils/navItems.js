@@ -9,7 +9,7 @@ export const navtitles = [
       { title: "executives", url: "/exco" },
       { title: "Family Song", url: "/song" },
       { title: "Photo Gallery", url: "/gallery" },
-      { title: "testimony", url: "/testimony" },
+      // { title: "testimony", url: "/testimony" },
     ],
   },
   {

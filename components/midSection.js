@@ -10,9 +10,9 @@ const MidSection = () => {
         We boast in Christ Jesus!
       </h2>
       <p className='text-center capitalize italic mb-3'>
-        Let no man despise thy youth. 1Tim 4:12
+        Let no man despise thy youth. 1Tim 4:12.
       </p>
-      <div className='flex w-fit mx-auto flex-col sm:flex-row gap-4 justify-center font-bold'>
+      {/* <div className='flex w-fit mx-auto flex-col sm:flex-row gap-4 justify-center font-bold'>
         <Button
           outline='white'
           text='Course Materials'
@@ -32,7 +32,7 @@ const MidSection = () => {
           text='Make a Donation'
           action={() => router.push("/give")}
         />
-      </div>
+      </div> */}
     </div>
   );
 };

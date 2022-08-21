@@ -29,7 +29,7 @@ const NavItem = ({ title, url, sub, id }) => {
       {sub && (
         <div
           className={`${
-            drop ? "block" : "hidden"
+            drop ? "block w-fit" : "hidden"
           } md:absolute z-10 top-24 border-t-4 border-[#FF0000] bg-white p-4 px-8 rounded-md shadow-md`}
         >
           {sub?.map(({ title, url }, i) => {
