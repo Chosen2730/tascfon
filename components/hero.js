@@ -7,23 +7,27 @@ import style from "../styles/hero.module.css";
 
 const Hero = () => {
   return (
-    <div className={`${style.hero} relative min-h-[700px] bg-black`}>
-      <div className='absolute px-8 top-0 w-full h-full flex items-center justify-between text-white text-center'>
-        <i className='text-2xl cursor-pointer md:text-4xl'>
+    <div
+      className={`${style.hero} min-h-[700px] bg-black flex flex-col justify-center items-center`}
+    >
+      <div className='px-8 text-white text-center'>
+        {/* <i className='text-2xl cursor-pointer md:text-4xl'>
           <BsArrowLeftCircle />
-        </i>
+        </i> */}
         <div>
-          <h2 className='text-3xl md:text-7xl font-bold'>
-            Welcome to the <span className='block'> Family of Love</span>
+          <h2 className='text-5xl md:text-8xl font-bold'>
+            Welcome to the <span className='block'> Family of Love.</span>
           </h2>
-          <p className='text-xl md:text-3xl my-2'>...we are one</p>
-          <div className='my-3 text-sm md:text-2xl'>
+          <p className='text-xl md:text-3xl my-2'>
+            ...let no man despise thy youth, we are one.
+          </p>
+          {/* <div className='my-3 text-sm md:text-2xl'>
             <Button text='Who We Are' outline='white' />
-          </div>
+          </div> */}
         </div>
-        <i className='text-2xl cursor-pointer md:text-4xl'>
+        {/* <i className='text-2xl cursor-pointer md:text-4xl'>
           <BsArrowRightCircle />
-        </i>
+        </i> */}
       </div>
     </div>
   );

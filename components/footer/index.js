@@ -13,7 +13,7 @@ const Footer = () => {
       <div className='grid sm:grid-cols-2 gap-4 justify-center max-w-4xl mx-auto'>
         <div>
           <h2 className='text-[#FF0000] text-sm uppercase my-2 sm:text-xl font-bold'>
-            Contact us
+            Location
           </h2>
           <p className='leading-6'>
             PALMVIEW, CAMP JUNCTION, FUNAaB ALABATA, ABEOKUTA, OGUNSTATE. <br />
@@ -24,8 +24,9 @@ const Footer = () => {
               Service Times
             </h2>
             <p className='leading-6'>
-              Service Times Sundays at 8:00am <br />
-              Wednesdays at 3:00pm
+              Service Times Sundays @ 8:00am <br />
+              Wednesdays: Bible study & Prayer meetings @ 3:00pm <br />
+              Every last Fridays: Solution Night @ 10pm
             </p>
           </div>
         </div>
