@@ -15,7 +15,7 @@ const NavItem = ({ title, url, sub, id }) => {
     >
       <div className='flex items-center'>
         <h1
-          className='uppercase my-4 font-bold text-sm cursor-pointer select-none py-2 border-white hover:text-[#FF0000] border-b-2 hover:border-[#FF0000] transition'
+          className={`uppercase my-4 font-bold text-sm cursor-pointer select-none py-2 border-white  border-b-2 hover:border-[#FF0000] transition`}
           onClick={() => router.push(url)}
         >
           {title}
@@ -35,7 +35,9 @@ const NavItem = ({ title, url, sub, id }) => {
           {sub?.map(({ title, url }, i) => {
             return (
               <Link key={i} href={url}>
-                <h1 className='hover:text-[#FF0000] transition uppercase my-4 font-bold text-sm cursor-pointer'>
+                <h1
+                  className={`hover:text-[#FF0000] transition uppercase my-4 font-bold text-sm cursor-pointer`}
+                >
                   {title}
                 </h1>
               </Link>

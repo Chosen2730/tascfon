@@ -9,20 +9,20 @@ const Blog = () => {
         be energized and strengthened!
       </p>
       <div className='flex justify-center flex-col'>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 gap-y-8 my-4 mx-auto'>
+        <div className='grid sm:grid-cols-2  md:grid-cols-3 gap-4 gap-y-8 my-4 mx-auto max-w-4xl'>
           {posts.map(({ image, author, title, content }, i) => {
             return (
               <div
                 key={i}
-                className='w-[298px] text-left text-gray-800 rounded-md shadow-md p-8'
+                className='text-left text-gray-800 rounded-md shadow-md p-8 flex justify-between flex-col items-center'
               >
-                <Image src={image} height={155} width={298} alt='photo' />
+                <img src={image} className='w-full' alt='photo' />
                 <h3 className='text-lg font-bold my-2'>{title}</h3>
                 <p className='text-sm'>{content}....</p>
                 <h5 className='text-xs text-gray-500 my-4'>{author}</h5>
                 <div className='text-xs text-center'>
                   <Button
-                    text='See More]]'
+                    text='Read More]]'
                     bgColor='#0F6212'
                     textColor='#fff'
                   />
